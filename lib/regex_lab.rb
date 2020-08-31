@@ -14,9 +14,11 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  text_array = []
-  text_array = text.scan(/^\w{5}\s/)
-  text_array
+  new_text_array = []
+  original_text = text.split(" ")
+  original_text.each do |word|
+    if word.match(/^\w{5}\s/)
+      
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
