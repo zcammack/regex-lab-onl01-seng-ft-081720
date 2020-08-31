@@ -15,8 +15,8 @@ end
 
 def words_five_letters_long(text)
   new_text_array = []
-  original_text = text.split(" ")
-  original_text.each do |word|
+  original_string = text.split(" ")
+  original_string.each do |word|
     if word.match(/^\w{5}\s/)
 
 end
