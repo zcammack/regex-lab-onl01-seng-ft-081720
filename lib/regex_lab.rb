@@ -18,7 +18,7 @@ def words_five_letters_long(text)
   original_text = text.split(" ")
   original_text.each do |word|
     if word.match(/^\w{5}\s/)
-      
+
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
